@@ -7,10 +7,11 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 
+# set page Configuration
 st.set_page_config(
     layout="wide",
-    page_title="Student Performance Predictor",
-    page_icon="🎓"
+    page_title="MovieMatrix",
+    page_icon="Red Black Typography Nine Brand Logo (2).png"
 )
 df = pd.read_csv("StudentsPerformance.csv")
 with st.sidebar:
