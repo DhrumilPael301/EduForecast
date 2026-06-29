@@ -26,7 +26,7 @@ with st.sidebar:
 
 if select == "Home":
 
-    st.title("🎓 EduForecast")
+    st.title("Edu Forecast")
     st.subheader("AI-Based Academic Prediction Tool")
 
     st.write("""
