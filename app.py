@@ -10,8 +10,8 @@ from sklearn.model_selection import train_test_split
 # set page Configuration
 st.set_page_config(
     layout="wide",
-    page_title="MovieMatrix",
-    page_icon="Red Black Typography Nine Brand Logo (2).png"
+    page_title="Edu Forecast",
+    page_icon="auctus tech logo.png"
 )
 df = pd.read_csv("StudentsPerformance.csv")
 with st.sidebar:
